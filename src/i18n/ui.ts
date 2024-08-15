@@ -26,6 +26,8 @@ export const ui = {
         'about.extra': 'yes i know, i have to change the image profile XD;if you read this, i wish you a good day;My favorite color is 4',
         'about.contact': 'Contact',
         'about.extraTitle': 'Extra:',
+        '404.title': 'Not Found',
+        '404.description': 'The page you are looking for does not exist',
     },
     es: {
         'nav.home': 'Inicio',
@@ -43,5 +45,7 @@ export const ui = {
         'about.description': 'una reseña sobre la persona mas esquizofrenica que existe en la tierra',
         'about.contact': 'Contacto',
         'about.extraTitle': 'El mensaje mas motivacional que veras hoy:',
+        '404.title': 'No encontrado',
+        '404.description': 'Los magicos duendes que habitan en tu computadora no pudieron encontrar la pagina que buscas',
     },
 } as const;
