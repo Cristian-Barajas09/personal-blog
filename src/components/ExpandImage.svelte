@@ -3,6 +3,7 @@
 
   export let src: string;
   export let alt: string;
+  export let downloadMessage: string = "download picture"
 
   let isExpanded = false;
 
@@ -13,9 +14,16 @@
 
 </script>
 
-<button class="cursor-pointer" on:click={handleClick}>
-  <img {src} class="w-full h-full" {alt} />
-</button>
+<div>
+  <button class="cursor-pointer w-full" on:click={handleClick}>
+    <img {src} class="w-full h-full" {alt} />
+  </button>
+
+  <div>
+    <a href="{src}" download >{downloadMessage}</a>
+  </div>
+
+</div>
 
 {#if isExpanded}
     <Modal on:close={handleClick}>
