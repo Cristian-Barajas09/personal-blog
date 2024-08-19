@@ -27,7 +27,9 @@
 
 {#if isExpanded}
     <Modal on:close={handleClick}>
-        <img {src} {alt} />
+        <div class="w-[400px]">
+          <img {src} {alt}  class="w-full h-full"/>
+        </div>
     </Modal>
 {/if}
 
