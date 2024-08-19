@@ -16,6 +16,7 @@ export const ui = {
         'nav.blog': 'Blog',
         'nav.language': 'Language',
         'home.title': 'Welcome to my blog website',
+        'home.description': 'This blog is currently under construction, but you can see my profile in the "About me" section',
         'about.title': 'About me',
         'about.description': 'A review about of the most schizophrenic person that exists on the earth',
         'about.realDescription': `
@@ -35,6 +36,7 @@ export const ui = {
         'nav.blog': 'Blog',
         'nav.language': 'Idioma',
         'home.title': 'Bienvenido a mi blog',
+        'home.description': 'Este blog actualmente esta en construcción, pero puedes ver mi perfil en la sección de "Sobre mi"',
         'about.title': 'Sobre mi',
         'about.realDescription': `
         Mi nombre es Cristian Barajas y soy un desarrollador de software,
