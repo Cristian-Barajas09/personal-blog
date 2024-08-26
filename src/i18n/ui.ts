@@ -1,4 +1,4 @@
-
+// #region ConfigureI18n
 export type Lang = 'en' | 'es';
 
 export const languages: Record<Lang, string> = {
@@ -8,7 +8,9 @@ export const languages: Record<Lang, string> = {
 
 
 export const defaultLang = 'en';
+// #endregion
 
+// #region dictionary
 export const ui = {
     en: {
         'nav.home': 'Home',
@@ -51,3 +53,5 @@ export const ui = {
         '404.description': 'Los magicos duendes que habitan en tu computadora no pudieron encontrar la pagina que buscas',
     },
 } as const;
+
+// #endregion
