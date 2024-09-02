@@ -7,7 +7,7 @@
 
   let isExpanded = false;
 
-  const handleClick = () => {
+  const handleModal = () => {
     isExpanded = !isExpanded;
   };
 
@@ -15,7 +15,7 @@
 </script>
 
 <div>
-  <button class="cursor-pointer w-full" on:click={handleClick}>
+  <button class="cursor-pointer w-full" on:click={handleModal}>
     <img {src} class="w-full h-full" {alt} />
   </button>
 
@@ -26,7 +26,7 @@
 </div>
 
 {#if isExpanded}
-    <Modal on:close={handleClick}>
+    <Modal on:close={handleModal}>
         <div class="w-[400px]">
           <img {src} {alt}  class="w-full h-full"/>
         </div>
